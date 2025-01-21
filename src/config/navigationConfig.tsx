@@ -1,7 +1,8 @@
 // import { Navigation, } from 'core/types';
 import { Icon, Navigation } from 'eworldes-ui-toolkit';
-
-
+import FileCopyIcon from '@mui/icons-material/FileCopy';
+import GroupIcon from '@mui/icons-material/Group';
+import ManIcon from '@mui/icons-material/Man';
 export const NAVIGATION: Navigation = [
   {
     kind: 'header',
@@ -26,21 +27,21 @@ export const NAVIGATION: Navigation = [
     ],
   },
   {
-    segment: 'calender',
+    segment: 'applications',
     title: 'Applications',
-    link: "/calender",
-    icon: <Icon iconName='event' />
+    link: "/applications",
+    icon: <FileCopyIcon/>
   },
   {
     segment: 'households',
     title: 'Households',
     link: "/calender",
-    icon: <Icon iconName='event' />
+    icon: <GroupIcon />
   },
   {
     segment: 'students',
     title: 'Students',
     link: "/calender",
-    icon: <Icon iconName='event' />
+    icon: <ManIcon />
   },
 ];

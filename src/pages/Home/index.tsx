@@ -14,7 +14,7 @@ export const Home = () => {
             slots={{
                 header: CustomPageHeader,
             }}>
-            <DataTable rows={rows} columns={columns} />
+            <DataTable rows={rows} columns={columns} checkboxSelection/>
         </PageContainer>
     )
 }

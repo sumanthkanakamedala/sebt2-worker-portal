@@ -24,7 +24,7 @@ const routes = [
             },
         },
         {
-            path: '/home',
+            path: '/applications',
             async lazy() {
                 let { Home } = await import(
                     "pages/Home"
@@ -37,7 +37,6 @@ const routes = [
         {
             path: '/calender',
             async lazy() {
-                console.log("test");
                 let { Home } = await import(
                     "pages/Home"
                 );
